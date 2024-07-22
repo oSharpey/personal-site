@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-gb'
-title = '0xShrpe'
+title = '0xSharpe'
 theme = 'typo'
 
 [taxonomies]
