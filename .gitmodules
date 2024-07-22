@@ -1,0 +1,6 @@
+[submodule "themes/typo_oscar"]
+	path = themes/typo_oscar
+	url = https://github.com/osharpey/typo.git
+[submodule "themes/typo"]
+	path = themes/typo
+	url = https://github.com/osharpey/typo.git

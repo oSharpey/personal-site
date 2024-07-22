@@ -1,0 +1,81 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = '0xShrpe'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Personal Blog and Portfolio"
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'custom1'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'woah'
+homeIntroContent = """
+Hi I'm Oscar, a 20 year old uni student from Southampton based in Leamington Spa - studying BSc Cyber Security at the University of Wariwck, currently working as a Security Research Intern @ CrowdStrike
+
+my small fountain of (limited) knowledge and photography
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 7
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/oscar-sharpe-a68115253"
+
+[[params.social]]
+name = "email"
+url = "mailto:oscarsharpe@pm.me"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/osharpey"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "photography"
+url = "/photography"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'trac'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
