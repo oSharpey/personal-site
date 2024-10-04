@@ -7,7 +7,7 @@ math: true
 readtime: true
 toc: true
 ---
-## Rev: Flare <a id="Flare"></a>
+## rev/Flare (hard) <a id="Flare"></a>
 
 ![img](./images/chall.png)
 
