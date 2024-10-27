@@ -9,8 +9,10 @@
 <!-- number of columns in the >1000px mode -->
 {{ $columns := .Get "columns" | default "4" }}
 <!-- Gallery gap px -->
-{{ $gap := .Get "gap" | default "10" }}
+{{ $gap := .Get "gap" | default "6" }}
 
+<!-- add one to the gap -->
+{{ $margin := add $gap 1 }}
 <!-- Text in the lightbox, either index on a piture or fetched from long_list [Name1, Name2, Exif1, Exif2] -->
 {{ $showAlt := .Get "showAlt" | default false }}
 
@@ -60,7 +62,7 @@
   .gallery_new {
     column-count: 1;
     column-gap: {{ $gap }}px;
-    margin: 0;
+    margin: 0rem;
     padding: 0;
     width: 100%;
   }
@@ -68,13 +70,14 @@
     list-style-type: none;
     display: inline-block;
     width: 100%;
-    padding-bottom: {{ $gap }}px;
+    padding: {{ $gap }}px;
     break-inside: avoid;
   }
   .gallery-item img {
     width: 100%;
     height: auto;
     cursor: pointer;
+      margin-bottom: -{{ $margin }}px;
   }
 
 

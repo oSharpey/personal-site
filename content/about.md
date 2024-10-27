@@ -7,7 +7,7 @@ hidePagination: true
 ---
 
 Studying Cyber Security at the University of Warwick, 
-currently working as a Security Research Intern at CrowdStrike.
+previous Security Research Intern at CrowdStrike.
 
 **Some tools \& languages I'm familiar with**
 - Rust/Python/C#/C
