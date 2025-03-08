@@ -18,7 +18,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'woah'
 homeIntroContent = """
-Hi I'm Oscar, a 20 year old uni student from Southampton based in Leamington Spa - studying BSc Cyber Security at the University of Wariwck, previous Security Research Intern @ CrowdStrike
+Hi I'm Oscar, a 21 year old uni student from Southampton based in Leamington Spa - studying BSc Cyber Security at the University of Wariwck, previous Security Research Intern @ CrowdStrike
 
 my small fountain of (limited) knowledge and some of my photography
 """
@@ -39,7 +39,7 @@ breadcrumbs = true
 
 [[params.social]]
 name = "email"
-url = "mailto:oscarsharpe@protonmail.com"
+url = "mailto:oscar@0xsharpe.com"
 
 [[params.social]]
 name = "github"
