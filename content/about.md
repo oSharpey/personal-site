@@ -18,7 +18,7 @@ previous Security Research Intern at CrowdStrike.
 ### Experience
 
 [CrowdStrike](https://www.crowdstrike.com/) \
-05/2024 - Present | Remote \
+07/2024 - Present | Remote \
 *Security Researcher*
 
 06/2024 - 09/2024 | Remote \
